@@ -90,7 +90,10 @@ affinity: {}
 kowl:
   # Config.yaml is required for Kowl and Kowl Business.
   # See reference config: https://github.com/cloudhut/kowl/blob/master/docs/config/kowl.yaml)
-  config: {}
+  config:
+    kafka:
+      brokers:
+        - unicorn-default-components-kafka:9092
   # roles:
   # roleBindings:
 
